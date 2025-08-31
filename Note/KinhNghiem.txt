@@ -1,0 +1,32 @@
+thực sự thì Dictionary sử dụng rất dễ chỉ cần nhớ vào phương thức
+phuong thức
+    kiểm tra key có tồn tại không
+    kiểm tra value có tồn tại không
+    thêm phần tử với cặp key value
+    xóa phần từ với key
+    clear tất cả phần tử
+
+thuộc tính
+    keys
+    values
+còn với HasSet
+thì trong ví dụ này mình chỉ sai
+    thêm
+    xoa
+    kiểm tra có hay không 
+còn mấy cái khác hợp hay giao phần tử gì đó thì không sài
+
+
+khi thiết kế một class thì cần cần nhắc chỉ thêm thuộc tính khi mà ta cần thuộc tính đó làm cái gì đó
+ví dụ string ID và string name, nếu ta cần ID để tra thông tin hoặc name để hiện thị thông tin, 
+nếu có một thuộc tính là bool gender mà không sử dụng nó để làm gì hết thì không cần thêm vào
+ví dụ như cần đếm xem đọc giả có bao nhiêu là nam, bao nhiêu là nữ thì có thể thêm bool gender vào
+
+
+
+mình muốn thêm QueueService vào LibraryService nhưng nếu mình sửa cái Contructor 
+thì nó sẽ ảnh hưởng tới toàn bộ code bên program.cs
+nếu mình sưa public LibraryService(LibraryData libraryData) thành public LibraryService(LibraryData libraryData, QueueService)
+thì nó sẽ ảnh hướng tới toàn bọ code bên trong program.cs 
+vậy nên 
+khúc này nếu có Git thì khá tuyệt mình có thể thấy được toàn bộ thay đôi lúc code

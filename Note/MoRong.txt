@@ -1,0 +1,8 @@
+
+mượn và trả sách có thể gom nó thành 1 hàm vì nó cũng cấu trúc 
+chỉ cần thêm 1 tham số Action<string, string> là được 
+làm callback function
+
+nên tạo một cái BookManager riêng để CRUD sách
+và một cái ReaderManager riêng để CRUD Reader
+tách biệt 2 cái ra riêng chứ không nhét hết vào LibraryService
